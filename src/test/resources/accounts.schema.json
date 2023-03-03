@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "required": [
+      "args",
+      "data",
+      "files",
+      "form",
+      "headers",
+      "json",
+      "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "args": {
+        "type": "object"
+      },
+      "data": {
+        "type": "string",
+        "pattern": "^Data$"
+      },
+      "files": {
+        "type": "object"
+
+      },
+      "form": {
+        "type": "string"
+
+      },
+      "headers": {
+        "type": "string"
+
+      },
+      "json": {
+        "type": "string"
+      },
+        "url":{
+          "type": "string"
+    }
+  }
+}
